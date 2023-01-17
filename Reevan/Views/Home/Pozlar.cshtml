@@ -1,0 +1,95 @@
+﻿
+@using Reevan.Models;
+
+@model PozContext
+
+
+@{
+    ViewBag.Title = "Pozlar";
+
+
+}
+
+
+<div class="hero-section_bg fl-wrap">
+
+    @Html.Partial("Sliders")
+
+    <div class="hero-sec_anim"></div>
+</div>
+
+
+
+
+<div class="container row">
+    @*<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+
+
+
+
+          @Html.Action("KategoriMenu","Kategori")
+
+        </div>*@
+
+    @section Kategori{
+
+        @Html.Action("KategoriMenu", "Kategori")
+    }
+
+    <div class="item col-lg-12 col-md-12 col-sm-12 col-12">
+
+
+        <p>@ViewBag.UrunSayisi adet ürün listelenmiştir.</p>
+
+        <div class="row">
+            @foreach (var pozBir in Model.Pozlar)
+            {
+                <div class="item-content col-md-4">
+                    <div class="post-item_wrap fl-wrap">
+                        <div class="post-item_media fl-wrap">
+                            <a href="~/Blog/Detay/?id=@pozBir.Id" class="ajax">
+                                <img src="~/Img/@pozBir.Resim" alt="">
+                            </a>
+                        </div>
+                        <div class="item_content fl-wrap">
+                            <br />
+                            <div class="post-header fl-wrap"> <a href="~/Blog/Detay/@pozBir.Id">@pozBir.Baslik</a>  </div>
+                            <h2><a href="~/Blog/Detay/?id=@pozBir.Id" class="ajax">@pozBir.Konu</a></h2>
+                            <div class="post-opt fl-wrap">
+                                <ul>
+                                    <li><a href="~/Blog/Detay/@pozBir.Id"><i class="fal fa-comments-alt"></i> @pozBir.YorumSayisi  yorum </a></li>
+                                    <li><span><i class="fal fa-eye"></i> @pozBir.GörüntülemeSayisi </span></li>
+                                </ul>
+                            </div>
+                            <p>
+                                @if (pozBir.Aciklama.Length > 100)
+                                {
+                                    @(pozBir.Aciklama.Substring(0, 100) + "...")
+                                }
+                                else
+                                {
+                                    @pozBir.Aciklama
+
+                                }
+                            </p>
+
+                            @*<a href="~/Blog/Detay/?id=@pozBir.Id" class="ajax post-link">Daha Fazla</a>*@
+                            @Html.ActionLink("Poz Detay", "Detay", null, new { id = pozBir.Id }, new { @class = "transparent_link" })
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            }
+
+
+        </div>
+
+
+
+    </div>
+
+
+</div>

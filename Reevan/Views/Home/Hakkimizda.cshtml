@@ -1,0 +1,223 @@
+﻿
+@using Reevan.Models;
+
+@model PozContext
+
+<style>
+    .menu-item
+    {
+       height:500px;
+       width:320px;
+       margin:5px 5px;
+    }
+</style>
+
+<div id="wrapper">
+    <div class="content-holder hide_footer">
+        <!-- content -->
+        <div class="header-bg"></div>
+        <!-- content-->
+        <div class="content fl-wrap">
+
+            <!-- hero-section -->
+           
+                <div class="hero-section_bg fl-wrap">
+                    
+                        @Html.Partial("Sliders")
+                   
+                    <div class="hero-sec_anim"></div>
+                </div>
+             
+           
+            <!-- hero-section end-->
+
+            <div class="clearfix"></div>
+            <!-- container -->
+            <div class="container small-container">
+                <div class="fl-wrap content-item sec-anim">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="column-wrapper_text fl-wrap">
+                                <h4> Deneyimler oluşturmak için çok çeşitli yaratıcı dijital projeleri, platformları ve kampanyaları kapsarız.</h4>
+                                <p>İster amatör olsun isterse profesyonel, tabiata ait fotoğraf çekmek oldukça ilgi çeken bir uğraştır. Amatörler genelde gezip gördükleri yerleri kendileri ile birlikte hatıra olsun diye fotoğraflarlar. Bazen bir heykelin yanında, bazen bir ağacın altında durup kendilerinin, yakınlarının fotoğrafını çekerler. </p>
+                                <p> Fotoğraf makinesini gittiği her yere götürenler aslında çevreyi ve tabiatı herkesten daha detaylı ve dikkatli inceleme ve gözlemleme fırsatına sahiptir. Ama, çok fotoğraf çeken herkes bu fırsatı kullanmaz. Bu fırsatı yakın çekim tekniği ile oldukça verimli kullanabiliriz. </p>
+                                <div class="inline-facts-holder fl-wrap">
+                                    <!-- inline-facts -->
+                                    <div class="inline-facts">
+                                        <div class="num">15</div>
+                                        <h6>Deneyimlerimiz</h6>
+                                    </div>
+                                    <!-- inline-facts end -->
+                                    <!-- inline-facts  -->
+                                    <div class="inline-facts">
+                                        <div class="num">24</div>
+                                        <h6>Ödülümüz</h6>
+                                    </div>
+                                    <!-- inline-facts end -->
+                                    <!-- inline-facts  -->
+                                    <div class="inline-facts">
+                                        <div class="num">13k</div>
+                                        <h6>Harika Fotoğraflar</h6>
+                                    </div>
+                                    <!-- inline-facts end -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image-collage-wrap fl-wrap">
+                                <div class="image-collage-wrap">
+                                    <div class="image-collage-wrap_container">
+                                        <img src="~/endor.kwst.net/images/all/2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- section end-->
+                <!-- section -->
+                <div class="section fl-wrap sec-anim" id="sec2">
+                    <div class="section-title">
+                        <h3>Hizmetlerimiz</h3>
+                    </div>
+                    <div class="row">
+
+                        @foreach (var hizmetBiri in Model.HizmetCesitler)
+                        {
+                            <div class="col-md-4 menu">
+                                <div class="menu-item column-wrapper_text services-item fl-wrap">
+                                    <span class="serv-number">@hizmetBiri.Id</span>
+                                    <i class="fal fa-film-canister"></i>
+                                    <h4>@hizmetBiri.Baslik</h4>
+                                    <p>
+                                        @hizmetBiri.Aciklama
+
+                                        @if (hizmetBiri.Aciklama.Length > 35)
+                                        {
+                                            @(hizmetBiri.Aciklama.Substring(0, 35) + "...")
+                                        }
+                                        else
+                                        {
+                                            @hizmetBiri.Aciklama
+                                        }
+
+                                    </p>
+                                    <ul class="serv-list">
+                                        <li>@hizmetBiri.AltBaslik1</li>
+                                        <li> @hizmetBiri.AltBaslik2 </li>
+                                        <li> @hizmetBiri.AltBaslik3 </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        }
+
+
+
+
+                    </div>
+                </div>
+                <!-- section end-->
+                <!-- section -->
+                <div class="section fl-wrap sec-anim" id="sec3">
+                    <div class="section-title">
+                        <h3>Müşterilerimizden Güzel Yorumlar</h3>
+                    </div>
+                    <div class="testilider fl-wrap">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <!-- swiper-slide -->
+                                <div class="swiper-slide">
+                                    <div class="testi-item fl-wrap">
+                                        <span class="testi-number">01.</span>
+                                        <div class="testi-avatar"><img src="~/endor.kwst.net/images/avatar/1.jpg" alt=""></div>
+                                        <h3>Liza Mirovsky</h3>
+                                        <p>"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over "</p>
+                                        <a href="#" class="teti-link" target="_blank">Via Twitter</a>
+                                    </div>
+                                </div>
+                                <!-- swiper-slide end-->
+                                <!-- swiper-slide -->
+                                <div class="swiper-slide">
+                                    <div class="testi-item fl-wrap">
+                                        <span class="testi-number">02.</span>
+                                        <div class="testi-avatar"><img src="~/endor.kwst.net/images/avatar/2.jpg" alt=""></div>
+                                        <h3>Andy Smith</h3>
+                                        <p>"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. "</p>
+                                        <a href="#" class="teti-link" target="_blank">Via Facebook</a>
+                                    </div>
+                                </div>
+                                <!-- swiper-slide end-->
+                                <!-- swiper-slide -->
+                                <div class="swiper-slide">
+                                    <div class="testi-item fl-wrap">
+                                        <span class="testi-number">03.</span>
+                                        <div class="testi-avatar"><img src="~/endor.kwst.net/images/avatar/3.jpg" alt=""></div>
+                                        <h3>Mery Trust</h3>
+                                        <p>"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over "</p>
+                                        <a href="#" class="teti-link" target="_blank">Via Twitter</a>
+                                    </div>
+                                </div>
+                                <!-- swiper-slide end-->
+                                <!-- swiper-slide -->
+                                <div class="swiper-slide">
+                                    <div class="testi-item fl-wrap">
+                                        <span class="testi-number">04.</span>
+                                        <div class="testi-avatar"><img src="~/endor.kwst.net/images/avatar/4.jpg" alt=""></div>
+                                        <h3>Centa Simpson</h3>
+                                        <p>"Vestibulum orci felis, ullamcorper non condimentum non, ultrices ac nunc. Mauris non ligula suscipit, vulputate mi accumsan, dapibus felis. Nullam sed sapien dui. Nulla auctor sit amet sem non porta. "</p>
+                                        <a href="#" class="teti-link" target="_blank">Via Facebook</a>
+                                    </div>
+                                </div>
+                                <!-- swiper-slide end-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tc-pagination fl-wrap"></div>
+                    <!-- client-list -->
+                    <div class="fl-wrap client-list">
+                        <ul>
+                            <li><a href="#" target="_blank"><img src="~/endor.kwst.net/images/clients/1.png" alt=""> </a></li>
+                            <li><a href="#" target="_blank"><img src="~/endor.kwst.net/images/clients/2.png" alt=""> </a></li>
+                            <li><a href="#" target="_blank"><img src="~/endor.kwst.net/images/clients/3.png" alt=""> </a></li>
+                            <li><a href="#" target="_blank"><img src="~/endor.kwst.net/images/clients/4.png" alt=""> </a></li>
+                        </ul>
+                        <!-- client-list end-->
+                    </div>
+                </div>
+                <!-- section end-->
+            </div>
+            <!-- container end-->
+        </div>
+        <!-- content end-->
+        <div class="footer-bg fl-wrap">
+            <div class="footer-bg_polcy"></div>
+            <div class="footer-bg_social_links"></div>
+            <div class="to-top-btn"><i class="fal fa-angle-up"></i></div>
+        </div>
+        <!-- share-wrapper-->
+        <div class="share-wrapper">
+            <div class="share-container isShare"></div>
+        </div>
+        <!-- share-wrapper  end -->
+        <div class="progress-bar-wrap">
+            <div class="progress-bar color-bg"></div>
+            <div class="mousey">
+                <div class="scroller"></div>
+            </div>
+        </div>
+        <!--page-scroll-nav-->
+        <div class="page-scroll-nav">
+            <nav class="scroll-init">
+                <ul>
+                    <li><a class="scroll-link actscr-link" href="#sec1"><span>Konu</span></a></li>
+                    <li><a class="scroll-link" href="#sec2"><span>Servis</span></a></li>
+                    <li><a class="scroll-link" href="#sec3"><span>Müşteriler</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--page-scroll-nav end-->
+    </div>
+    <!-- content-holder end-->
+</div>
+<!-- wrapper end-->

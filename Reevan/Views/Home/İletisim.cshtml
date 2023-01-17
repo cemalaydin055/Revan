@@ -1,0 +1,90 @@
+﻿@using Reevan.Models;
+
+@model PozContext
+
+
+
+
+<!-- wrapper-->
+<div id="wrapper">
+    <!-- content-holder-->
+    <div class="content-holder hide_footer">
+        <!-- content -->
+        <!-- content -->
+        <div class="header-bg"></div>
+        <!-- content-->
+        <div class="content fl-wrap">
+
+            @Html.Partial("Sliders")
+
+            <div class="clearfix"></div>
+            <!-- container-->
+            <div class="container small-container mt-5">
+                <div class="fl-wrap content-item sec-anim" style="margin-bottom: 150px;">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="column-wrapper_text fl-wrap">
+                                <p>Çalışmalarımızdaki odak noktamız sizsiniz. Bizim için önemli olan, sizin istekleriniz. Siz bizimle istek ve görüşlerinizi paylaşırken biz de bir fincan kahveyi paylaşmak istiyoruz. Yüz yüze kuracağımız iletişimle başarıya daha kısa zamanda ulaşacağımıza inanıyoruz.</p>
+                                <div class="contact-details fl-wrap">
+                                    <ul>
+                                        <li><span>E-Posta :</span><a href="#" target="_blank">aydinfotograf@outlook.com</a></li>
+                                        <li><span>Adres  :</span><a href="#" target="_blank">Doğu Mah. Karanfil Sokak No:18/A Pendik / İST</a></li>
+                                        <li><span>Telefon :</span><a href="#">+9 (537) 489 51 87</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+
+
+                            @using (Html.BeginForm("İletisim", "Home", FormMethod.Post))
+                            {
+                                <div id="contact-form" class="fl-wrap">
+                                    <div id="message"></div>
+                                    <form class="custom-form" action="https://endor.kwst.net/php/contact.php" name="contactform" id="contactform">
+
+
+
+                                        <div class="form-row ">
+                                            <div class="form-group col-md-6">
+                                                <label for="Adi">Ad Soyad</label>
+                                                @Html.TextBox("Adi", null, new { @class = "form-control" })
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="Telefon">Telefon</label>
+                                                @Html.TextBox("Telefon", null, new { @class = "form-control" })
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Eposta">E-Posta</label>
+                                            @Html.TextBox("Eposta", null, new { @class = "form-control" })
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Mesaj">Mesaj</label>
+                                            @Html.TextArea("Mesaj", null, new { @class = "form-control" })
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="form-check">
+                                                Evet     @Html.RadioButton("Durum", true)
+                                                Hayır     @Html.RadioButton("Durum", false)
+                                            </div>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-dark btn btn-lg">GÖNDER</button>
+
+
+
+
+
+                                    </form>
+                                </div>
+                            }
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- container end-->
+        </div>

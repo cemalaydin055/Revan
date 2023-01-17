@@ -1,0 +1,152 @@
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\Reevan.dll.config
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\Reevan.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\Reevan.pdb
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\csc.exe
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\csc.exe.config
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\csc.rsp
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\csi.exe
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\csi.exe.config
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\csi.rsp
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.AppContext.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Console.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.IO.Compression.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Net.Http.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.ValueTuple.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\vbc.exe
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\vbc.exe.config
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\vbc.rsp
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\VBCSCompiler.exe
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\System.Web.Helpers.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\System.Web.Mvc.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\System.Web.Razor.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\System.Web.Webpages.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\System.Web.Webpages.Razor.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\System.Web.Razor.xml
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\System.Web.Webpages.xml
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\System.Web.Webpages.Razor.xml
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\System.Web.Helpers.xml
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\System.Web.Mvc.xml
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\obj\Debug\Reevan.csproj.CoreCompileInputs.cache
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\obj\Debug\Reevan.csproj.CopyComplete
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\obj\Debug\Reevan.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\obj\Debug\Reevan.pdb
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\EntityFramework.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\EntityFramework.SqlServer.dll
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\EntityFramework.xml
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\bin\EntityFramework.SqlServer.xml
+C:\Users\Cemal Aydın\source\repos\Reevan\Reevan\obj\Debug\Reevan.csprojAssemblyReference.cache
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\Reevan.dll.config
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\Reevan.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\Reevan.pdb
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\csc.exe
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\csc.exe.config
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\csc.rsp
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\csi.exe
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\csi.exe.config
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\csi.rsp
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.AppContext.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Console.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.IO.Compression.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Net.Http.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.ValueTuple.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\vbc.exe
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\vbc.exe.config
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\vbc.rsp
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\VBCSCompiler.exe
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\EntityFramework.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\EntityFramework.SqlServer.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\System.Web.Helpers.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\System.Web.Mvc.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\System.Web.Razor.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\System.Web.Webpages.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\System.Web.Webpages.Razor.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\EntityFramework.xml
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\EntityFramework.SqlServer.xml
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\System.Web.Razor.xml
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\System.Web.Webpages.xml
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\System.Web.Webpages.Razor.xml
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\System.Web.Helpers.xml
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\System.Web.Mvc.xml
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\obj\Debug\Reevan.csprojAssemblyReference.cache
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\obj\Debug\Reevan.csproj.CoreCompileInputs.cache
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\obj\Debug\Reevan.csproj.CopyComplete
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\obj\Debug\Reevan.dll
+C:\Users\Cemal Aydın\Desktop\bitmiş -projelerim\revan-fotografcı sitesti\Cemal_Aydın\CemalAydın_Proje\Reevan\Reevan\obj\Debug\Reevan.pdb

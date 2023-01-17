@@ -1,0 +1,29 @@
+﻿@using Reevan.Models;
+@model PozContext
+
+
+
+<ul class="list-group">
+
+    <h3 class="text-center mb-4">Kategoriler</h3>
+
+    @foreach (var kategoriBir in Model.Kategoriler)
+
+    {
+        <li class="list-group-item">
+            @kategoriBir.KategoriAdi
+
+            @if (kategoriBir.Id == 1)
+            {
+                <span class="badge"> @ViewBag.UrunSayisi</span>
+            }
+            else
+            {
+                <span class="badge">0</span>
+            }
+
+        </li>
+    }
+
+
+</ul>

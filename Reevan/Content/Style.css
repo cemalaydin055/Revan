@@ -1,0 +1,65 @@
+﻿body {
+}
+
+.item {
+}
+
+.item-content {
+    padding: 20px 0;
+    padding-left: 40px;
+}
+
+p {
+    text-align: left;
+}
+
+.list-group {
+    margin-top: 600px;
+    text-align: left;
+    line-height: 20px;
+    margin-left: 60px;
+}
+
+.list-group-item {
+    font-size: 15px;
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+    background: rgb(29,18,1,0.5);
+}
+
+h3 {
+    padding: 5px 2px;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+
+.badge {
+    padding: 8px;
+    float: right;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: #350d0d;
+    text-align: center;
+}
+
+
+.menu {
+    margin-bottom: 15px;
+}
+
+
+.form-group {
+    padding: 20px 0;
+}
+
+    .form-group .form-control {
+        margin-top: 10px;
+        padding: 15px 0 !important;
+        font-size: 16px;
+    }
+
+p {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}

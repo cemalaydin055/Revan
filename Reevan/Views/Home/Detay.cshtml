@@ -1,0 +1,60 @@
+﻿
+@using Reevan.Models;
+
+@model  Reevan.Models.AnaPoz
+@{
+    ViewBag.Title = "Detay";
+
+}
+<style>
+
+    .bolum
+    {
+        border:1px solid gray;
+        height:600px;
+        
+    }
+    .sag {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+
+    
+</style>
+
+
+
+
+    <div id="wrapper">
+        <!-- content-holder-->
+        <div class="content-holder hide_footer">
+            <!-- content -->
+            <!-- content -->
+            <div class="header-bg"></div>
+            <!-- content-->
+            <div class="content fl-wrap">
+
+                @Html.Partial("Sliders")
+
+                <div class="clearfix"></div>
+                <!-- container-->
+                <div class="container small-container mt-5">
+                    <div class="fl-wrap content-item sec-anim bolum" style="margin-bottom: 150px;">
+                        <div class="row">
+                            <div class="col-md-6 mt-5  sol">
+                                <img class="pl-5"  src="~/AnaImg/@Model.Resim" width="100%" alt="">
+                            </div>
+                            <div class="col-md-6 text-center sag">
+                                <h3 class="mt-5 mb-5 mr-5">@Model.Tür</h3>
+                                <a href="~/Home/Detay/?id=@Model.Id"></a>
+                                <span style="font-size:20px" class="text-danger mb-5">@Model.Aciklama</span>
+                                <p>@Model.Tanim</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- container end-->
+            </div>
+
+

@@ -1,0 +1,160 @@
+﻿
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <!--=============== basic  ===============-->
+    <meta charset="UTF-8">
+    <title>Aydın Photography - Yaratıcı Fotoğraf Portfolyo</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <!--=============== css  ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+
+    <link type="text/css" rel="stylesheet" href="~/endor.kwst.net/css/plugins.css">
+    <link type="text/css" rel="stylesheet" href="~/endor.kwst.net/css/style.css">
+    <!--=============== favicons ===============-->
+    <link rel="shortcut icon" href="~/endor.kwst.net/images/favicon.ico">
+    <link href="~/Content/Style.css" rel="stylesheet" />
+
+    
+
+</head>
+<body>
+    <!--main-loader  -->
+    <div class="main-loader">
+        <div class="ml-wrap">
+            <div class="ml-mask"></div>
+            <img src="~/endor.kwst.net/images/logo.png" class="img-fluid" alt="">
+        </div>
+    </div>
+    <!-- main-loader end -->
+    <!-- main  -->
+    <div id="main">
+        <!--  logo -->
+        <a href="~/Home/Index" class="ajax logo-holder"><img src="~/endor.kwst.net/images/logo.png" class="img-fluid" alt=""></a>
+        <!--  logo end -->
+        <!--  navigation -->
+        <div class="nav-holder main-menu">
+            <nav>
+                <ul>
+                    <li>@Html.ActionLink("Anasayfa", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Blog Çekim", "Pozlar", "Home")</li>
+                    <li>@Html.ActionLink("Hakkımızda", "Hakkimizda", "Home")</li>
+                    <li>@Html.ActionLink("İletişim", "İletisim", "Home") </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- navigation  end -->
+        <!--  share btn -->
+        <div class="share-btn">Paylaş</div>
+        <!--  share btn end -->
+        <div class="nav-button-wrap">
+            <div class="nav-button"><span></span><span></span><span></span></div>
+        </div>
+        <!--  navigation -->
+        <!-- wrapper-->
+        <div id="wrapper">
+            <!--  content-holder -->
+            <div class="content-holder hide_footer2">
+                <div class="header-bg hb_mob"></div>
+                <div class="filter-btn hid-filter">
+                    <div class="filter-btn_container aside_anim"></div>
+                    <span class="filt-title">Filtrele</span>
+                </div>
+                <!-- gallery-filters-wrap-->
+                <div class="gallery-filters-wrap">
+                    <div class="gallery-filters">
+                        <a href="#" class="gallery-filter  gallery-filter-active" data-filter="*"><span>01.</span>Tüm Albümler</a>
+                        <a href="#" class="gallery-filter" data-filter=".nature"><span>02.</span>Doğal</a>
+                        <a href="#" class="gallery-filter" data-filter=".models"><span>03.</span>Model</a>
+                        <a href="#" class="gallery-filter" data-filter=".couples"><span>04.</span>Sevgili</a>
+                        <a href="#" class="gallery-filter" data-filter=".outdoor"><span>05.</span>Dış Mekan</a>
+                        <div class="count-folio">
+                            <div class="num-album"></div>
+                        </div>
+                    </div>
+                    <div class="gallery-filters-overlay"></div>
+                </div>
+                <!--gallery-filters-wrap end-->
+                <!--  hero-showcase-wrap -->
+
+                @if (IsSectionDefined("Kategori"))
+                {
+                    <div class="row">
+                        <div class="col-md-3 p-5">
+
+                            @RenderSection("Kategori", false)
+
+
+                        </div>
+                        <div class="col-md-9">
+                            @RenderBody()
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    @RenderBody()
+                }
+
+
+
+
+
+                <!--  hero-showcase-wrap end -->
+                <div class="mob-footer_gal mfg-2 fl-wrap">
+                    <div class="to-top-btn"><i class="fal fa-angle-up"></i></div>
+                </div>
+                <!-- share-wrapper-->
+                <div class="share-wrapper">
+                    <div class="share-container isShare"></div>
+                </div>
+                <!-- share-wrapper  end -->
+            </div>
+            <!--  content-holder end -->
+        </div>
+        <!-- wrapper end-->
+        <!--  social_links -->
+        <div class="social_links">
+            <div class="sc-links_clone">
+                <span>Takip:</span>
+                <ul>
+                    <li><a href="#" target="_blank">Fb</a></li>
+                    <li><a href="#" target="_blank">İns</a></li>
+                    <li><a href="#" target="_blank">Tw</a></li>
+                    <li><a href="#" target="_blank">Vk</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--  social_links end -->
+        <!--  policy-box -->
+        <div class="policy-box">
+            <span>&#169; Aydın 2021  -  Tüm Hakları Saklıdır </span>
+        </div>
+        <!--  policy-box end-->
+        <!-- cursor-->
+        <div class="element">
+            <div class="element-item"></div>
+        </div>
+        <!-- cursor end-->
+    </div>
+    <!-- Main end -->
+    <!--=============== scripts  ===============-->
+    <script src="~/endor.kwst.net/js/jquery.min.js"></script>
+    <script src="~/endor.kwst.net/js/plugins.js"></script>
+    <script src="~/endor.kwst.net/js/scripts.js"></script>
+
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+
+
+</body>
+<!-- Mirrored from endor.kwst.net/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Feb 2022 11:55:30 GMT -->
+</html>

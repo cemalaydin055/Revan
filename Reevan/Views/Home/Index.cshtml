@@ -1,0 +1,59 @@
+﻿
+@using Reevan.Models;
+
+@model PozContext
+
+
+
+<!--gallery-filters-wrap end-->
+<!--  hero-showcase-wrap -->
+<div class="hero-showcase-wrap">
+    <div class="hero-showcase">
+
+        <div class="gallery-items sf_true">
+            <div class="gallery-items-container fl-wrap">
+                <!-- gallery-item -->
+
+                @foreach (var anafotolarBiri in Model.AnaPozlar)
+                {
+                    <div class="gallery-item nature">
+                        <div class="hov_box">
+                            <img src="~/AnaImg/@anafotolarBiri.Resim" alt="">
+                            <div class="overlay"></div>
+                            <div class="hov_box-title">
+                                <a href="~/Home/Detay/?id=@anafotolarBiri.Id" class="ajax">@anafotolarBiri.Aciklama</a>
+                                <div class="cat_item">@anafotolarBiri.Tür</div>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--  hero-showcase-wrap end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+        
+       
+   
+         
+    

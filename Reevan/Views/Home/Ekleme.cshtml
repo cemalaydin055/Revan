@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Ekleme";
+}
+
+<h2>Ekleme</h2>
+
+<div class="col-md-6">
+
+
+    @using (Html.BeginForm("Ekleme", "Home", FormMethod.Get))
+    {
+        <div id="contact-form" class="fl-wrap">
+            <div id="message"></div>
+            <form class="custom-form" action="https://endor.kwst.net/php/contact.php" name="contactform" id="contactform">
+
+
+
+                <div class="form-row custom-form">
+                    <div class="form-group col-md-6">
+                        <label for="Adi">Ad Soyad</label>
+                        @Html.TextBox("Adi", null, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group col-md-6 custom-form">
+                        <label for="Telefon">Telefon</label>
+                        @Html.TextBox("Telefon", null, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group custom-form">
+                    <label for="Eposta">E-Posta</label>
+                    @Html.TextBox("Eposta", null, new { @class = "form-control" })
+                </div>
+                <div class="form-group custom-form">
+                    <label for="Mesaj">Mesaj</label>
+                    @Html.TextBox("Mesaj", null, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    <div class="form-check">
+                        @Html.CheckBox("Durum", true)Onayliyorum
+                        @Html.CheckBox("Durum", false)Onaylamiyorum
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Kayıt</button>
+
+
+
+
+            </form>
+        </div>
+    }
+
+
+</div>
